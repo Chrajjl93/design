@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: This is a page for Kmom02.
+Template: kmom
 ---
 
 
@@ -24,4 +25,4 @@ Jag gillar mer stilren design och uppskattar webbsidor som arbetar för att dera
 Jag delade först upp koden i ett test-tema för att se till så att koden fungerade innan jag flyttade över den till temat 'Christian'. Jag har fortfarande styling för navigation bar separat från övrig layout, jag har även 3 separata filer i mappen 'shared': base, layout, variables. Jag valde att använda den uppdelningen som vi gick igenom på övningen då det är smidigt att ha variabler för sig och sedan styling för layout för sig. När filerna blir större tänker jag att denna uppdelning blir ännu viktigare. Att man importerar dessa i 'base' och sedan bara importerar 'base' som styling-fil är smart!
 
 <h4>Vilken är din TIL för detta kmom?</h4>
-Min TIL är allt vi lärt oss om SASS egentligen, jag hade inte använt det tidigare. Men denna gång har jag lärt mig om hur jag kan använda den tekniken för att skapa återanvändbara designteman, hur man kan bygga ut CSS funktionalitet med SASS genom att nesta funktioner och t.ex. skapa variabler. 
+Min TIL är allt vi lärt oss om SASS egentligen, jag hade inte använt det tidigare. Men denna gång har jag lärt mig om hur jag kan använda den tekniken för att skapa återanvändbara designteman, hur man kan bygga ut CSS funktionalitet med SASS genom att nesta funktioner och t.ex. skapa variabler.

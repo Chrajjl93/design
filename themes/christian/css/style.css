@@ -6646,6 +6646,135 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* report.scss */
+.landingpage {
+  margin: 0 2em;
+  display: grid;
+  gap: 2em 4em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #202225;
+}
+
+.kmom-box.header {
+  flex: 1;
+  padding: 10px 0 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #7ed0e0;
+  background-color: #202225;
+  border-radius: 0;
+  border-style: none;
+}
+
+.kmom-box.content {
+  flex: 3;
+  padding: 10px 0 0 10px;
+  max-height: 25vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 0;
+  border-style: none;
+}
+
+.kmom-box.footer {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 0;
+  border-style: none;
+  padding-right: 10px;
+}
+
+.button {
+  display: flex;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #202225;
+  justify-content: center;
+  align-items: center;
+  color: #7ed0e0;
+  border-radius: 10px;
+  margin-right: 10px;
+  border-style: hidden;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+/*** SMALL DEVICES ***/
+@media (max-width: 767px) {
+  .landingpage h1 {
+    grid-column: span 1;
+    grid-row: span 1;
+    justify-self: center;
+  }
+
+  .kmom-box.project {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+/* kmom.scss */
+.kmom-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-container {
+  display: flex;
+  flex: 1.5;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 0;
+}
+
+.sidebar-container a {
+  font-size: 18px;
+  font-weight: 900;
+  color: #121437;
+  margin: 10px 0;
+}
+
+.sidebar-container a:hover {
+  color: #7ed0e0;
+}
+
+.sidebar-container a:active {
+  color: #7ed0e0;
+}
+
+.content-container {
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  padding: 1em;
+}
+
+/*** SMALL DEVICES ***/
+@media (max-width: 767px) {
+  .sidebar-container {
+    display: none;
+  }
+}
 /* Under mina övriga imports */
 * {
   font-family: "Roboto", sans-serif;

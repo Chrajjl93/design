@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass christiantest/scss/style.scss christiantest/css/style.css --no-source-map",
+    "style": "sass christian/scss/style.scss christian/css/style.css --no-source-map",
     "style-min": "sass christiantest/scss/style.scss christiantest/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],

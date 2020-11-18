@@ -22,7 +22,7 @@
     <!-- End -->
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/scss/style.scss" type="text/scss" />
+    <link rel="stylesheet" href="{{ theme_url }}/scss/kmom.scss" type="text/scss" />
 
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
@@ -46,7 +46,7 @@
                 {% for About in pages["_meta"].meta.About %}
                 <a title="{{ About.title }}" role="button">
                   <i class="{{ About.icon }}" aria-hidden="true"></i>
-                </a>
+                  </a>
                 {% endfor %}
                 {% endif %}
                 {% if page.title == "Docs" %}
@@ -67,8 +67,19 @@
       </div>
     </header>
     <div class="main" id="main" role="main">
-        <div class="container">
-            {{ content }}
+        <div class="kmom-container">
+            <div class="sidebar-container">
+                <a href="./kmom01">Kmom 1</a>
+                <a href="./kmom02">Kmom 2</a>
+                <a href="./kmom03">Kmom 3</a>
+                <a href="./kmom04">Kmom 4</a>
+                <a href="./kmom05">Kmom 5</a>
+                <a href="./kmom06">Kmom 6</a>
+                <a href="./kmom10">Projekt</a>
+            </div>
+            <div class="content-container">
+                {{ content }}
+            </div>
         </div>
     </div>
     <div class="site-footer">
