@@ -351,7 +351,7 @@ template {
 }
 
 .main {
-  background-color: #fff;
+  background-color: #191e24;
 }
 
 html,
@@ -367,7 +367,7 @@ body {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #121f40;
+  background-color: #1f2a34;
   color: #e1e1e1;
   padding: 0 2em;
 }
@@ -400,7 +400,7 @@ body {
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #121f40;
+  background: #1f2a34;
   color: #e1e1e1;
   padding: 2em;
 }
@@ -437,7 +437,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #000;
+  color: #e1e1e1;
 }
 
 p,
@@ -482,7 +482,7 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #000;
+  color: #e1e1e1;
 }
 
 h1 {
@@ -6676,8 +6676,8 @@ readers do not read off random characters that represent icons */
   font-size: 18px;
   font-weight: 700;
   width: inherit;
-  color: #ff8c2e;
-  background-color: #313d59;
+  color: #7cbee0;
+  background-color: #2e3138;
   border-radius: 0;
   border-style: none;
 }
@@ -6709,10 +6709,10 @@ readers do not read off random characters that represent icons */
   width: 80px;
   font-size: 14px;
   font-weight: 600;
-  background-color: #313d59;
+  background-color: #2e3138;
   justify-content: center;
   align-items: center;
-  color: #ff8c2e;
+  color: #7cbee0;
   border-radius: 10px;
   margin-right: 10px;
   border-style: hidden;
@@ -6757,7 +6757,7 @@ readers do not read off random characters that represent icons */
 .sidebar-container a {
   font-size: 18px;
   font-weight: 900;
-  color: #ff8c2e;
+  color: #7cbee0;
   margin: 10px 0;
 }
 

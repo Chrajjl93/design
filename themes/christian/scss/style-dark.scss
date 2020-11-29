@@ -1,9 +1,12 @@
-$level-zero-color: #fff;
-$level-one-color: #121f40;
-$accent-color: #ff8c2e;
-$level-two-color: #313d59;
+$level-zero-color: #191e24;
+$level-one-color: #1f2a34;
+$accent-color: #7cbee0;
+$level-two-color: #2e3138;
 $navfont-color: #e1e1e1;
-$text-color: #000;
+$text-color: #e1e1e1;
+
+
+
 
 @import '../../shared/scss/base';
 
@@ -25,7 +28,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 * {
+
     font-family: 'Roboto', sans-serif;
+
 }
 
 h1,
@@ -34,6 +39,8 @@ h3,
 h4,
 h5,
 h6 {
+
     font-family: 'Open Sans', sans-serif;
+
 }
 /* Resten av min stylesheet */
