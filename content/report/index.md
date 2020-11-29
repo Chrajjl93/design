@@ -32,7 +32,7 @@ Template: report
 
 <div class="kmom-box">
   <div class="kmom-box header">Kmom04</div>
-  <div class="kmom-box content">Kmom04 was really fun..</div>
+  <div class="kmom-box content">Det var intressant att se på olika "branscher" för hur webbsidor utvecklas och designas. Jag tittade på Regeringens webbsida för att se lite hur den ser ut jämfört..</div>
   <div class="kmom-box footer">
     <a href="./report/kmom04" class="button">Gå till</a>
   </div>
