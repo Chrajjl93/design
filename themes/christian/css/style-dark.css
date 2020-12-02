@@ -6723,6 +6723,23 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.image-box {
+  display: flex;
+  max-width: 70%;
+  max-height: 90%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /*** SMALL DEVICES ***/
 @media (max-width: 767px) {
   .landingpage h1 {
@@ -6774,6 +6791,24 @@ readers do not read off random characters that represent icons */
   flex: 6;
   flex-direction: column;
   padding: 1em;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*** SMALL DEVICES ***/

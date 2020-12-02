@@ -78,6 +78,25 @@
     width: auto;
 }
 
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.image-box {
+    display: flex;
+    max-width: 70%;
+    max-height: 90%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
 /*** SMALL DEVICES ***/
 
 @media (max-width: 767px) {
