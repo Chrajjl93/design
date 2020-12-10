@@ -465,7 +465,7 @@ fieldset {
 }
 
 a {
-  color: #60d7c5;
+  color: #000;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
@@ -486,26 +486,32 @@ h6 {
 }
 
 h1 {
+  margin-left: 8px;
   font-size: 2rem;
 }
 
 h2 {
+  margin-left: 8px;
   font-size: 1.7rem;
 }
 
 h3 {
+  margin-left: 8px;
   font-size: 1.4rem;
 }
 
 h4 {
+  margin-left: 8px;
   font-size: 1.1rem;
 }
 
 h5 {
+  margin-left: 8px;
   font-size: 1rem;
 }
 
 h6 {
+  margin-left: 8px;
   font-size: 1rem;
   font-weight: normal;
   font-style: italic;
@@ -6648,6 +6654,7 @@ readers do not read off random characters that represent icons */
   margin: 0 2em;
   display: grid;
   gap: 2em 4em;
+  min-width: 80vw;
 }
 
 .landingpage h1 {
@@ -6660,7 +6667,7 @@ readers do not read off random characters that represent icons */
   flex-direction: column;
   grid-column: span 1;
   height: 35vh;
-  width: 27vw;
+  width: auto;
   min-width: 380px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -6752,6 +6759,22 @@ video {
     grid-column: span 1;
     grid-row: span 1;
     width: 380px;
+  }
+
+  .kmom-box {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 1;
+    height: 35vh;
+    width: 80vw;
+    min-width: 200px;
+    max-width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #202225;
   }
 }
 /* kmom.scss */

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang=en class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="{{ theme_url }}/scss/report.scss" type="text/scss" />
 
 </head>
-<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %} style="min-width: 100vw;">
     <header class="site-header">
-          <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+          <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
         <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
         <span class="sr-only">Toggle Menu</span>
       </a>
@@ -67,7 +67,7 @@
         </ul>
       </div>
       <div class="flash-region">
-        <img class="flash-img" src="{{ base_url }}/image/newflashImage.jpg">
+        <img class="flash-img" src="{{ base_url }}/image/newflashImage.jpg" alt="flash image">
       </div>
     </header>
     <div class="main" id="main" role="main">

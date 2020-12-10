@@ -128,7 +128,7 @@ fieldset {
 }
 
 a {
-    color: #60d7c5;
+    color: #000;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
@@ -149,26 +149,32 @@ h6 {
 }
 
 h1 {
+    margin-left: 8px;
     font-size: 2rem;
 }
 
 h2 {
+    margin-left: 8px;
     font-size: 1.7rem;
 }
 
 h3 {
+    margin-left: 8px;
     font-size: 1.4rem;
 }
 
 h4 {
+    margin-left: 8px;
     font-size: 1.1rem;
 }
 
 h5 {
+    margin-left: 8px;
     font-size: 1rem;
 }
 
 h6 {
+    margin-left: 8px;
     font-size: 1rem;
     font-weight: normal;
     font-style: italic;

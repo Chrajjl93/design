@@ -132,13 +132,13 @@ Jag tror att färgvalet och typografin motsvarar vad de vill framhäva. Gul är 
 
 ## Analys
 
-<h4>1. Samlade intryck Stripe</h4>
+<h3>1. Samlade intryck Stripe</h3>
 Stripe är ett fin-tech bolag som verkar i en mer analytisk sektor (finans - blått) samtidigt som de i stor grad vill nå ut till startups eller utvecklare för att integrera med deras API, därav passar deras mer lekfulla tech-aktiga känsla väl tillsammans med den mer analytiska delen av webbsidan. Färgtemat ger den mer intellektuella samt lekfulla känslan, fonterna är lättlästa, rubrikerna är aningen ihopbakade i sitt utseende. Innehållet på webbsidan är utlagt med precision och ger en kompakt känsla, någonting som inte syns i snapshot är även animationer. Stripe använder animationer för att locka användarens uppmärksamhet till viktiga delar av deras värdeerbjudanden. Ikoner som ligger strax intill komponenter med viktigt innehåll gör sporadiska animationer som drar besökarens uppmärksamhet till sig.
 
-<h4>2. Samlade intryck Regeringen</h4>
+<h3>2. Samlade intryck Regeringen</h3>
 Regeringen har en modern webbsida med ett analogt färgtema av blått / lila för att ge en lugn, auktoritär och intellektuell känsla. I princip vad man kan förvänta sig av sin regering. Typografin är simpel och ofta lättläst, med textstorlekar som väl speglar rubriker / brödtexter. Webbsidan använder sig inte av mer lekfulla element som gradienter, animationer eller mer utstickande färger, vilket ger en seriös känsla. Ej heller skuggor eller rundade kanter på hörnen av element förekommer vilket skapar en känsla av att de bryr sig mer _om_ innehållet som visas än _hur_ det visas.
 
-<h4>3. Samlade intryck Aftonbladet</h4>
+<h3>3. Samlade intryck Aftonbladet</h3>
 Aftonbladet använder stora skillnader i teckenstorlekar på sina typsnitt för att locka användarens uppmärksamhet till nyheter. De använder dessutom ett färgschema som skapar en känsla av att "vara in the action" med pigga och utstickande toner. Även Aftonbladet använder sans-serif och jag misstänker att det ger en modernare känsla i samhörighet med den digitala världen då dessa företag behöver anpassa sig och sitt varumärke från att vara en del av det förflutna till att vara en viktig del i människors nuvarande anskaffande av nyheter och omvärldsspaningar.
 
 Resultatet av denna studie har gett inblick i att olika företag (alt. instanser) i olika branscher med olika agendor till stor del använder sin digitala profil (i.e. webbplats) för att påverka användares/besökares syn på företagets varumärke. Endast 3 webbsidor har analyserats vilket inte ger någon riktig validitet eller reliabilitet för resultatet utöver det faktum att det förekommer företag / instanser i olika branscher (även statliga organ) som lägger stor vikt på hur deras webbsida förmedlar deras agendor.

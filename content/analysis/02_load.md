@@ -53,8 +53,6 @@ Större tidsbesparingar kan göras genom att ta bort JavaScript som inte använd
 <h4>3. Förbättringsmöjligheter</h4>
 Större tidsbesparingar kan göras genom att ta bort resurser som blockerar renderingen, ta bort JavaScript som inte används, läsa in viktiga resurser i förväg och skicka bilder i modernare bildformat.
 
-
-
 ## Analys
 
 Resultatet av studien är intressant. Man kan tänka sig att en webbplats som Youtube som beror väldigt mycket av video- och bildrelaterat innehåll och där användarupplevelsen är oerhört viktig (då själva webbplatsen är produkten) bör prestera mycket bra i mätningarna av laddningshastighet, speciellt när Google själva äger Youtube. Ett förväntat resultat var därför att Youtube skulle prestera bäst i mätningarna. Efter att resultaten samlats in är det dock uppenbart att så inte är fallet och anledningen till det är att jämförelsen mellan dessa webbsidor inte är rättvis då deras syfte skiljer sig åt. En webbsida för vasamuseet är relativt lättviktig då värdeerbjudandet mot kund inte direkt är webbsidan utan att besöka museet i sig, därav har de inte den massiva volym innehåll att hantera för användare. En rimligare mätning vore att jämföra Youtube med liknande webbsidor som erbjuder liknande värderbjudande för att se hur de presterar i relation till varandra. Youtube verkar å andra sidan ligga på ungefär samma nivå som resterande webbplatser på mobil-prestandan. Antalet resurser som Youtube laddar är dessutom förre än vad övriga webbsidor laddar i medel, men dessa är i regel tyngre än resurserna som övriga webbplatser laddar.
@@ -63,14 +61,14 @@ Aftonbladet har aningen bättre laddningstider men presterar inte speciellt bra 
 
 De vanligaste förbättringsåtgärderna som verkar finnas för de analyserade webbsidorna är att 1) Ta bort JavaScript som inte används, 2) Ta bort resurser som blockerar renderingen, 3) Läsa in viktiga resurser i förväg och 4) att skicka bilder i modernare bildformat.
 
-<h4>Rangordning av webbplatser</h4>
+<h3>Rangordning av webbplatser</h3>
 * 1 - Vasamuseet
 * 2 - Aftonbladet
 * 3 - Youtube
 
 Vinnaren i mätningen (baserat på PageSpeed Insights) är Vasamuseet. Mätningen är som tidigare diskuterat inte representativ för att förstå om Vasamuseet har en mer optimerad snabbhet än en webbplats som Youtube. Syftet med webbplatserna skiljer sig åt och innehållet skiljer sig åt vilket påverkar resultatet nämnvärt.
 
-<h4>Gräns för absolut laddningstid</h4>
+<h3>Gräns för absolut laddningstid</h3>
 En gräns för vad jag själv upplever som en tillräckligt snabb webbsida ligger mellan 2.5-3.5 sekunders laddningstid eller snabbare. Endast Vasamuseets webbplats ligger inom detta intervall i total laddningstid. Aftonbladets webbplats laddar dock snabbt in det viktigaste innehållet, själva artiklarna, medan mindre viktiga element laddas in betydligt långsammare.
 
 ## Övrigt
